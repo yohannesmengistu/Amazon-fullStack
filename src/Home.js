@@ -1,6 +1,9 @@
 import React from "react";
 import "./Home.css";
 import Product from "./Product";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function Home() {
   return (
@@ -13,6 +16,7 @@ function Home() {
         />
 
         <div className="home__row">
+          
           <Product
             id="12321341"
             title="WLIVE TV Stand for 65 70 inch TV, Entertainment Center with Storage, Industrial TV Console for Living Room, Long 63"
