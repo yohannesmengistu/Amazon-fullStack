@@ -11,7 +11,7 @@ function Home() {
       <div className="home__container">
         <img
           className="home__image"
-          src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
+          src="https://m.media-amazon.com/images/I/61JXteI8hTL._SX1500_.jpg"
           alt=""
         />
 
@@ -88,11 +88,26 @@ function Home() {
             rating={4}
             image="https://m.media-amazon.com/images/I/8156a2we89L._AC_SL1500_.jpg"
           />
-           
+           <Product
+            id="90829332"
+            title="PEIDUO Christmas Decorations, 2FT Birch Tree with LED Lights, Warm White Light up Tree Lamp, Fairy Light Spirit Tree for Xmas Indoor Home Table Fireplace Decor, Battery Powered, 6H/18H Timer (2PK)"
+            price={198.98}
+            rating={4}
+            image="https://m.media-amazon.com/images/I/815J6iwv5gL._AC_SX569_.jpg"
+          />
+          <Product
+            id="90829335"
+            title="Smart Christmas Tree 6FT 265 Led Light, Prelit DIY Pattern and Text Outdoor Christmas Cone Tree Light Show, Music Sync RGB Christmas Yard Lights App Remote..."
+            price={234.98}
+            rating={4}
+            image="https://m.media-amazon.com/images/I/71RZb4EwhvL._AC_SL1500_.jpg"
+          />
            
         </div>
       </div>
+    
     </div>
+    
   );
 }
 
